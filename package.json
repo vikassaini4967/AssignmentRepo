@@ -1,0 +1,14 @@
+{
+  "name": "qa-assignment-playwright",
+  "version": "1.0.0",
+  "description": "Playwright UI automation for the QA assignment test application",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "serve": "^14.2.4"
+  }
+}
